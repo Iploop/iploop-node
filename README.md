@@ -16,7 +16,7 @@ That's it. You're now earning proxy credits.
 ## What It Does
 
 - Shares your idle bandwidth through IPLoop's residential proxy network
-- Earns credits: **1 GB shared = 1 GB of proxy access**
+- Earns credits: up to **2.4 GB/day** at Gold tier (see [REWARDS.md](REWARDS.md))
 - Uses < 50MB RAM, near-zero CPU
 - Auto-reconnects on network issues
 - Works on Linux, macOS, Windows, Raspberry Pi
