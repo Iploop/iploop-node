@@ -78,6 +78,8 @@ MIT — see [LICENSE](LICENSE)
 
 ## Support API
 
+📖 [Full API Documentation](docs/SUPPORT-API.md)
+
 All endpoints available at `gateway.iploop.io:9443`
 
 ### GET /api/support/status
