@@ -26,7 +26,7 @@ System health check. **No auth required.**
 ```json
 {
   "status": "operational",
-  "network": "Millions of residential IPs worldwide",
+  "network": "High volume residential IP pool worldwide",
   "countries_available": 195,
   "coverage": "High availability across all regions",
   "protocols": ["HTTP CONNECT", "SOCKS5"],
@@ -63,7 +63,7 @@ Diagnose your API key — check validity, plan, quota, usage. **Auth required.**
   "used_gb": 3.2,
   "remaining_gb": 6.8,
   "usage_percent": 32,
-  "network": "Millions of residential IPs available",
+  "network": "High volume residential IP pool available",
   "countries_available": 195,
   "best_countries": ["US", "GB", "CA", "DE", "IN", "FR", "BR", "AU", "JP", "KR"],
   "suggestion": "Your key is healthy. 68% quota remaining."
