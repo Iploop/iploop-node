@@ -75,3 +75,35 @@ Don't want Docker? Download from [Releases](https://github.com/iploop/iploop-nod
 ## License
 
 MIT — see [LICENSE](LICENSE)
+
+## Support API
+
+All endpoints available at `gateway.iploop.io:9443`
+
+### GET /api/support/status
+System health check. No auth required.
+
+### GET /api/support/diagnose?api_key=YOUR_KEY
+Diagnose your API key — plan, quota, usage, recommendations.
+
+### GET /api/support/errors/{code}
+Error code lookup (407, 403, 502, 503, 504, 429). No auth required.
+
+### POST /api/support/ask
+Body: `{"question": "your question"}`. Requires api_key param.
+Ask about countries, quota, pricing, errors, timeouts.
+
+### Rate Limits
+All API responses include rate limit headers:
+- `X-RateLimit-Limit` — your plan's limit
+- `X-RateLimit-Remaining` — requests remaining
+- `X-RateLimit-Reset` — reset timestamp
+
+| Plan | Requests/min |
+|------|-------------|
+| Free | 30 |
+| Rewarded | 120 |
+| Starter | 120 |
+| Growth | 300 |
+| Business | 600 |
+| Enterprise | 1000+ |
